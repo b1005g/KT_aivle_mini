@@ -11,3 +11,7 @@
 * 텍스트 요약 및 핵심 키워드 도출
     * 사용 모델 : OpenAI의 **GPT-3.5-turbo**
     * 내용 요약과 주요 키워드를 도출하도록 프롬프트 입력과 출력을 구성하고 테스트 해 봅시다.
+
+* 음성데이터 : 위급상황_음성-음향_고도화_119_지능형_신고접수_음성_인식_데이터
+    * https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=&topMenu=&aihubDataSe=data&dataSetSn=71768
+    * 서울데이터 사용
