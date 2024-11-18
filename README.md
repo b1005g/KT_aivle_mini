@@ -15,3 +15,5 @@
 * 음성데이터 : 위급상황_음성-음향_고도화_119_지능형_신고접수_음성_인식_데이터
     * https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=&topMenu=&aihubDataSe=data&dataSetSn=71768
     * 서울데이터 사용
+      
+![image](https://github.com/user-attachments/assets/b48b79a4-b851-495a-9729-1c77ff94b162)
