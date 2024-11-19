@@ -7,11 +7,7 @@
 
 #문제점
 1) 구분1이라는 범주를 상세하게 언급한 것들에 대해서만 생성해주는 문제
+![image](https://github.com/user-attachments/assets/eaaca3bd-11c5-406e-815e-4924b9188b39)
+![image](https://github.com/user-attachments/assets/f3973217-2340-4a1d-87b1-594e19684154)
 
-<Error>
-<script/>
-<script/>
-<Code>AuthenticationFailed</Code>
-<Message>Server failed to authenticate the request. Make sure the value of Authorization header is formed correctly including the signature. RequestId:5dfecc5d-901e-007c-5f73-3a71a7000000 Time:2024-11-19T11:09:24.4719922Z</Message>
-<AuthenticationErrorDetail>Signed expiry time [Tue, 19 Nov 2024 10:53:49 GMT] must be after signed start time [Tue, 19 Nov 2024 11:09:24 GMT]</AuthenticationErrorDetail>
-</Error>
+
