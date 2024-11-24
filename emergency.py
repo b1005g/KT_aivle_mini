@@ -104,7 +104,7 @@ def model_prediction(df):
     return pred
 
 # 3-1. get_distance------------------
-
+# 오류있음. 수정해야됨
 def get_dist(df, hospital):
         x_lon, x_lat = df['위도'][0], df['경도'][0]
         hospital = pd.read_csv(path + '/응급실 정보.csv')
@@ -119,8 +119,8 @@ def get_dist(df, hospital):
         lat_em_filter, lon_em_filter = hospital['위도'], hospital['경도']
         url = "https://naveropenapi.apigw.ntruss.com/map-direction/v1/driving"
         headers = {
-            "X-NCP-APIGW-API-KEY-ID": 'hqev5yhpp0',
-            "X-NCP-APIGW-API-KEY": '0hKV6LdcBYambAIlHkVtAMuxCuRD6ypCVQrSGjne',
+            "X-NCP-APIGW-API-KEY-ID": '',
+            "X-NCP-APIGW-API-KEY": '',
         }
         params = {
             "start": f"{x_lon}, {x_lat}",  # 출발지 (경도, 위도)
@@ -163,8 +163,8 @@ def recom_em(path, df):
         lat_em_filter, lon_em_filter = hospital['위도'], hospital['경도']
         url = "https://naveropenapi.apigw.ntruss.com/map-direction/v1/driving"
         headers = {
-            "X-NCP-APIGW-API-KEY-ID": 'hqev5yhpp0',
-            "X-NCP-APIGW-API-KEY": '0hKV6LdcBYambAIlHkVtAMuxCuRD6ypCVQrSGjne',
+            "X-NCP-APIGW-API-KEY-ID": '',
+            "X-NCP-APIGW-API-KEY": '',
         }
         params = {
             "start": f"{x_lon}, {x_lat}",  # 출발지 (경도, 위도)
