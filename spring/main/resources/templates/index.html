@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recommend Hospital</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        fieldset {
+            border: 4px solid #ccc;
+            padding: 2em;
+        }
+
+        legend {
+            font-weight: bold;
+            font-size: 30px;
+            text-align: center
+        }
+
+        .form-group {
+            margin-bottom: 2em;
+        }
+
+        label {
+            display: inline-block;
+            width: 70px;
+            font-weight: bold;
+            padding: 1em;
+            border-radius: 5px;
+            background-color: rgb(207 232 220);
+        }
+
+        input[type="text"] {
+            width: 200px;
+            padding: 1em;
+            box-sizing: border-box;
+            display: inline-flex;
+            border: 2px solid;
+            border-radius: 5px;
+        }
+
+        .submit-btn input[type="submit"],
+        .submit-btn button[type="submit"]{
+            text-align: center;
+            width: 300px;
+
+            background-color: #007BFF;
+            padding: 0.5em 1em;
+            border-radius: 4px;
+            cursor: pointer;
+
+            font-size: 1em;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+<p type="text">
+    응급상황과 위치를 넣어주세요.
+</p>
+<form action="recommend_hospital" method="get" enctype="application/x-www-form-urlencoded">
+    <fieldset>
+        <legend>Input Form</legend>
+        <div class="form-group">
+            <label for="request">Request</label>
+            <input type="text" id="request" name="request" value="test" placeholder="Enter request">
+        </div>
+        <div class="form-group">
+            <label for="latitude">Latitude</label>
+            <input type="text" id="latitude" name="latitude" value="37.538435245262626" placeholder="Enter latitude">
+        </div>
+        <div class="form-group">
+            <label for="longitude">Longitude</label>
+            <input type="text" id="longitude" name="longitude" value="126.98982802695484" placeholder="Enter longitude">
+        </div>
+        <div class="form-group submit-btn">
+            <input type="submit" value="Submit">
+        </div>
+    </fieldset>
+</form>
+</body>
+</html>
